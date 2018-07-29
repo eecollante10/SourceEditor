@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import SavannaKit
+import savannakit
 
 public protocol SourceCodeRegexLexer: RegexLexer {
 	

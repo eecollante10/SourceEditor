@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import SavannaKit
+import savannakit
 
 public struct DefaultSourceCodeTheme: SourceCodeTheme {
 	

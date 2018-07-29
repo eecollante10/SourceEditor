@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import SavannaKit
+import savannakit
 
 public enum SourceCodeTokenType {
 	case plain

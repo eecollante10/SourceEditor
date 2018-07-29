@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import SavannaKit
+import savannakit
 
 public protocol SourceCodeTheme: SyntaxColorTheme {
 	
@@ -27,7 +27,7 @@ extension SourceCodeTheme {
 		return attributes
 	}
 	
-	public func attributes(for token: SavannaKit.Token) -> [NSAttributedStringKey: Any] {
+	public func attributes(for token: savannakit.Token) -> [NSAttributedStringKey: Any] {
 		var attributes = [NSAttributedStringKey: Any]()
 		
 		if let token = token as? SimpleSourceCodeToken {

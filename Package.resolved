@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SavannaKit",
+        "repositoryURL": "https://github.com/louisdh/savannakit.git",
+        "state": {
+          "branch": null,
+          "revision": "d1958aeed3911294f97d6e3cc63fff9e6cf0ca59",
+          "version": "0.9.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
